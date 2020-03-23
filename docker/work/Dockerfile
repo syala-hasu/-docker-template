@@ -16,4 +16,7 @@ WORKDIR /root
 
 RUN git clone https://github.com/syala-hasu/dotfiles.git
 
+WORKDIR /root/dotfiles
+RUN ./init.sh
+
 WORKDIR /root/workspace
