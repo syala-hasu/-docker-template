@@ -2,7 +2,7 @@ version: "3.7"
 services:
   work:
     build:
-      context: ./docker/app
+      context: ./docker/work
       dockerfile: Dockerfile
     tty: true
     volumes:
