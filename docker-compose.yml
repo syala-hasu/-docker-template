@@ -1,6 +1,7 @@
 version: "3.7"
 services:
   work:
+    hostname: "WORKING!"
     build:
       context: ./docker/work
       dockerfile: Dockerfile
